@@ -1,0 +1,62 @@
+#background-video{                              /*fount this online but its not quite working the way i want it to, so I'll experiment more with it next time. I want it to only cover the header and navigation*/
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.85;
+}
+
+h1 {
+    color: rgba(60, 29, 122, 0.89);
+    font-size: 55px;
+    font-weight: 400;
+    text-align: center;
+    background-color: none;
+    background-clip: url(../images/chocolate-cake.mp4);  /*this didnt work, I dont know how to make it work yet*/
+    background-size: cover;
+    background-attachment: fixed;
+
+
+    nav {
+        color: palevioletred;
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+        background-color: #eddfeb
+        
+    
+    }
+}
+
+
+img{
+    border-width: 3px;
+    border-style: solid;
+    border-color: mediumpurple;
+    border-radius: 7px;
+    box-shadow: 5px 5px 10px #eddfeb;
+    width: 300px;
+}
+
+#first-paragraph{
+    font-weight: bold;
+    color: mediumpurple;
+}
+
+
+body{
+    background-color: #eddfeb;
+    text-align: center;
+}
+
+h2{
+    color:palevioletred;
+}
+
+
+/*next i want to align the images in a nice way*/
