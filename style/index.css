@@ -1,6 +1,6 @@
 #background-video{                              /*fount this online but its not quite working the way i want it to, so I'll experiment more with it next time. I want it to only cover the header and navigation*/
     width: 100vw;
-    height: 100vh;
+    height: 500px;
     object-fit: cover;
     position: fixed;
     left: 0;
@@ -9,6 +9,16 @@
     bottom: 0;
     z-index: -1;
     opacity: 0.65;
+}
+
+.header-bg {
+    position: relative;
+    top: 20px;
+    width: 100%;
+    height: 500px;
+    z-index: 2;
+    top: 150px;
+    text-align: center;
 }
 
 h1 {
@@ -22,8 +32,10 @@ h1 {
     background-attachment: fixed;
 
 }
-li{
-    text-align: center;
+
+.allergies-ul{
+    display:flex;
+    justify-content: center;
 }
 
 nav {
@@ -31,10 +43,9 @@ nav {
     font-size: 20px;
     font-weight: 400;
     text-align: center;
-    background-color:  none;
-    
-
+    background-color:  none; 
 }
+
 img{
     border-width: 3px;
     border-style: solid;

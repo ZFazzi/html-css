@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="style/index.css">
 </head>
 <body>
-    <header>
-        <h1>My Cakestore</h1>
+
         <video id="background-video" autoplay loop muted poster="images/Tart-movie.mp4">
             <source src="images/Tart-movie.mp4" type="video/mp4">
         </video>
+        <header class="header-bg">
+            <h1>My Cakestore</h1>
         <nav>                        <!--Menu start-->
             <a href="#cakes">Cakes</a>
             <a href="#cupcakes">Cupcakes</a>
@@ -68,7 +69,10 @@
 
         <section id="allergies">   <!--5th menu Allergies-->
             <h2>Allergies</h2>
-            <p>Many of our cakes contain:
+            <p>
+                Many of our cakes contain:  
+            </p>
+            <div class="allergies-ul">  
                 <ul>
                     <li>
                         Nuts
@@ -83,7 +87,7 @@
                         Eggs
                     </li>
                 </ul>
-            </p>
+            </div>  
             <p>Please contact us if you have any special preferences, and we'll do our best to meet your needs! :)</p>
         </section>                 <!--End of 5th menu Allergies-->
 
