@@ -21,19 +21,20 @@ h1 {
     background-size: cover;
     background-attachment: fixed;
 
-
-    nav {
-        color: rgb(104, 15, 15);
-        font-size: 20px;
-        font-weight: 400;
-        text-align: center;
-        background-color:  #a16868;
-        
-    
-    }
+}
+li{
+    text-align: center;
 }
 
+nav {
+    color: rgb(104, 15, 15);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    background-color:  none;
+    
 
+}
 img{
     border-width: 3px;
     border-style: solid;
