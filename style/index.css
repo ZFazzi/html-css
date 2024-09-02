@@ -1,6 +1,6 @@
 #background-video{                              /*fount this online but its not quite working the way i want it to, so I'll experiment more with it next time. I want it to only cover the header and navigation*/
     width: 100vw;
-    height: 500px;
+    height: 530px;
     object-fit: cover;
     position: fixed;
     left: 0;
@@ -19,6 +19,10 @@
     z-index: 2;
     top: 150px;
     text-align: center;
+    font-family: 'Mulish', system-ui;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal; 
 }
 
 h1 {
@@ -27,11 +31,9 @@ h1 {
     font-weight: 400;
     text-align: center;
     background-color: none;
-    background-clip: url(../images/chocolate-cake.mp4);  /*this didnt work, I dont know how to make it work yet*/
     background-size: cover;
     background-attachment: fixed;
-
-}
+} 
 
 .allergies-ul{
     display:flex;
@@ -53,22 +55,45 @@ img{
     border-radius: 7px;
     box-shadow: 5px 5px 10px rgba(184, 157, 157, 0.753);
     width: 300px;
+
 }
 
 #first-paragraph{
-    font-weight: bold;
-    color: rgb(74, 39, 39);
+    color: rgba(34, 10, 52, 0.89);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
 }
 
+#cheesecake{
+    display:block;
+}
 
 body{
-    background-color: #a16868;
+    background-color: #a06e6e4f;
     text-align: center;
 }
 
 h2{
-    color:rgb(104, 15, 15);
+    color: rgba(103, 41, 84, 0.89);
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
 }
+
+p{
+    color: rgba(103, 41, 84, 0.89);
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.great-vibes-regular {
+    font-family: 'Great Vibes', system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 
 
 /*next i want to align the images in a nice way*/
